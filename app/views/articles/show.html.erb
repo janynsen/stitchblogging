@@ -3,3 +3,7 @@
 <p><%= @article.body %></p>
 
 <%= link_to "Back to Blog List", articles_path %>
+
+<%= link_to "Edit Blog Post", edit_article_path(@article) %>
+
+<%= link_to "Delete", article_path(@article), data: {confirm: "Are you sure?"}, method: :delete %>
