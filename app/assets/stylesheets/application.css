@@ -1,5 +1,6 @@
 body { 
-    font:75%  Arial, Helvetica, sans-serif;
+    font: 100%  Arial, Helvetica, sans-serif;
+    font-weight: bold;
     color:#333; 
     background: url('stitchgreen.jpg') no-repeat center center;
     background-size: cover;
@@ -46,3 +47,4 @@ ul.nav li a:hover {
     background: rgba(255,255,255,0.7);
     background-clip: padding-box;
 }
+
